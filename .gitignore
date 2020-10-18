@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Exercise.WebAPI_JWT
+/Exercise.WebAPI_JWT/bin/Debug/netcoreapp3.1
+/Exercise.WebAPI_JWT/obj
