@@ -5,3 +5,6 @@
 /.vs/Exercise.WebAPI_JWT
 /Exercise.WebAPI_JWT/bin/Debug/netcoreapp3.1
 /Exercise.WebAPI_JWT/obj
+/FDA.Examples.AuthJWT/obj
+/FDA.Examples.AuthJWT/bin/Debug/netcoreapp3.1
+/.vs/FDA.Examples.AuthJWT

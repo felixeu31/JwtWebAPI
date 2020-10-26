@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Exercise.WebAPI_JWT.Models;
-using Exercise.WebAPI_JWT.Services;
+using FDA.Examples.AuthJWT.Models;
+using FDA.Examples.AuthJWT.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Exercise.WebAPI_JWT.Controllers
+namespace FDA.Examples.AuthJWT.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

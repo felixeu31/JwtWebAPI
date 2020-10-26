@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Exercise.WebAPI_JWT.Models
+namespace FDA.Examples.AuthJWT.Models
 {
     public class AuthenticateRequest
     {

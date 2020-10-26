@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Exercise.WebAPI_JWT.DbContext;
-using Exercise.WebAPI_JWT.Helpers;
-using Exercise.WebAPI_JWT.Services;
+using FDA.Examples.AuthJWT.DbContext;
+using FDA.Examples.AuthJWT.Helpers;
+using FDA.Examples.AuthJWT.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -13,7 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Exercise.WebAPI_JWT
+namespace FDA.Examples.AuthJWT
 {
     public class Startup
     {

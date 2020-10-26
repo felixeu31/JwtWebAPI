@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Exercise.WebAPI_JWT.Migrations
+namespace FDA.Examples.AuthJWT.Migrations
 {
     public partial class usersalt : Migration
     {

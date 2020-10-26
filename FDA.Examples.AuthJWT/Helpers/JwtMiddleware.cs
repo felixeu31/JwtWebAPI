@@ -4,12 +4,12 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Exercise.WebAPI_JWT.Services;
+using FDA.Examples.AuthJWT.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Exercise.WebAPI_JWT.Helpers
+namespace FDA.Examples.AuthJWT.Helpers
 {
     public class JwtMiddleware
     {

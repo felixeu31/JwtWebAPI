@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Exercise.WebAPI_JWT.Entities;
+using FDA.Examples.AuthJWT.Entities;
 
-namespace Exercise.WebAPI_JWT.Models
+namespace FDA.Examples.AuthJWT.Models
 {
     public class AuthenticateResponse
     {

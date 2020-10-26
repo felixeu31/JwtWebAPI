@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Exercise.WebAPI_JWT.Entities;
+using FDA.Examples.AuthJWT.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
+namespace FDA.Examples.AuthJWT.Helpers
+{
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class AuthorizeAttribute : Attribute, IAuthorizationFilter
     {
@@ -20,3 +22,4 @@ using Microsoft.AspNetCore.Mvc.Filters;
             }
         }
     }
+}

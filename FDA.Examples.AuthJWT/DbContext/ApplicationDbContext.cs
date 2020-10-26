@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Exercise.WebAPI_JWT.Entities;
+using FDA.Examples.AuthJWT.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
-namespace Exercise.WebAPI_JWT.DbContext
+namespace FDA.Examples.AuthJWT.DbContext
 {
     public class ApplicationDbContext : Microsoft.EntityFrameworkCore.DbContext
     {

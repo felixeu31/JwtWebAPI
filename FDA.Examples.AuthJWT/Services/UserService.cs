@@ -6,15 +6,15 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using Exercise.WebAPI_JWT.DbContext;
-using Exercise.WebAPI_JWT.Entities;
-using Exercise.WebAPI_JWT.Helpers;
-using Exercise.WebAPI_JWT.Models;
+using FDA.Examples.AuthJWT.DbContext;
+using FDA.Examples.AuthJWT.Entities;
+using FDA.Examples.AuthJWT.Helpers;
+using FDA.Examples.AuthJWT.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Exercise.WebAPI_JWT.Services
+namespace FDA.Examples.AuthJWT.Services
 {
     public interface IUserService
     {
